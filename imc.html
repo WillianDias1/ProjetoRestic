@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saúde e Cuidados Pessoais</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+    <!-- Menu Expansivo -->
+    <header>
+        <nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="alimentacao.html">Alimentação</a></li>
+                <li><a href="exercicios.html">Exercícios</a></li>
+                <li><a href="saude.html">Saúde Mental</a></li>
+                <li><a href="imc.html">Calculadora de IMC</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Calculadora de IMC -->
+    <section id="imc">
+        <h2>Calculadora de IMC</h2>
+        <p>Insira seu peso e altura para calcular seu Índice de Massa Corporal (IMC).</p>
+        <form id="imc-form">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" required>
+
+            <label for="altura">Altura (m):</label>
+            <input type="number" step="0.01" id="altura" required>
+
+            <button type="button" onclick="calcularIMC()">Calcular IMC</button>
+        </form>
+        <p id="resultado"></p>
+    </section>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
