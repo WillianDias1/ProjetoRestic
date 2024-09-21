@@ -27,4 +27,4 @@ Este projeto é uma aplicação web voltada para promover a saúde e o bem-estar
 ## Como Executar o Projeto
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/saude-e-cuidados-pessoais.git
+   git clone https://github.com/WillianDias1/ProjetoRestic.git
